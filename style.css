@@ -13,7 +13,7 @@
 .portfolio-container{
     min-height: 100vh;
     width: 100%;
-    
+    display: flex;
 
 }
 
@@ -24,6 +24,8 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    
 }
 .navlist li{
     list-style: none;
@@ -32,4 +34,22 @@
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1rem;
+    color: #fff;
+}
+
+.left-container, .right-container{
+   height: 100vh;
+}
+
+.left-container{
+   background-color:#262525;
+   width: 70%;
+}
+.right-container{
+    background-color: aqua;
+    width: 30%;
+}
+
+.icons .fa-brands{
+    color: #bbb;
 }
