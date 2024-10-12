@@ -39,17 +39,63 @@
 
 .left-container, .right-container{
    height: 100vh;
+   display: flex;
+   align-items: center;
 }
 
 .left-container{
    background-color:#262525;
    width: 70%;
+   padding-left: 3rem;
 }
 .right-container{
     background-color: aqua;
     width: 30%;
 }
-
+.icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
 .icons .fa-brands{
     color: #bbb;
+}
+.content{
+    margin-left: 4rem;
+}
+.content h2{
+    font-size: 1.5rem;
+    color: #fff;
+}
+.content h1{
+    font-size: 4rem;
+    color: #5db9ee;
+}
+.content .detail{
+    font-size: 1.1rem;
+    color: #fff;
+    max-width: 38rem;
+    margin: 1.1rem 0 3rem 0;
+    line-height: 1.8rem;
+}
+.btn button{
+    border: .1rem solid #5db9ee;
+    font-size: 1.1rem;
+    padding: .8rem 1.5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+button:nth-child(1){
+    background: #5db9ee;
+}
+button:nth-child(2){
+    background: transparent;
+    color: #5db9ee;
+    margin-left: 3rem;
+}
+button:nth-child(1):hover{
+    background: transparent;
+    color: #5db9ee;
 }
