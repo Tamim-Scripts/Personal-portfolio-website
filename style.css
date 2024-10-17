@@ -49,7 +49,7 @@
    padding-left: 3rem;
 }
 .right-container{
-    background-color: aqua;
+    background: linear-gradient(-45deg, #3877ff, #262525 70%);
     width: 30%;
 }
 .icons{
@@ -86,6 +86,7 @@
     padding: .8rem 1.5rem;
     border-radius: .5rem;
     cursor: pointer;
+    transition: .5s;
 }
 button:nth-child(1){
     background: transparent;
@@ -103,5 +104,31 @@ button:nth-child(1):hover{
 button:nth-child(2):hover{
     background: #5db9ee;
     color: black;
+    
+}
+.icons .fa-brands:hover{
+    cursor: pointer;
+    background: linear-gradient(#fff, #3877ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.design .circle{
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+.circle:nth-child(1){
+    background: linear-gradient(90deg, transparent 50%, #262525 50%);
+    width: 38rem;
+}
+.circle:nth-child(2){
+    width: 30rem;
+    background: transparent;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 1rem #fff, inset 0 0 1rem #fff, 0 0 2rem #3877ff, inset 0 0 2rem #3877ff ;
     
 }
