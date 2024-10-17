@@ -88,7 +88,8 @@
     cursor: pointer;
 }
 button:nth-child(1){
-    background: #5db9ee;
+    background: transparent;
+    color: #5db9ee;
 }
 button:nth-child(2){
     background: transparent;
@@ -96,6 +97,11 @@ button:nth-child(2){
     margin-left: 3rem;
 }
 button:nth-child(1):hover{
-    background: transparent;
-    color: #5db9ee;
+    background: #5db9ee;
+    color: #000102;
+}
+button:nth-child(2):hover{
+    background: #5db9ee;
+    color: black;
+    
 }
